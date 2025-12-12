@@ -1,25 +1,14 @@
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+# Blackjack
+This is a final project program for CS-314 which plays a game of blackjack using Tkinter for the GUI. 
 
-[project]
-name = "blackjack"
-version = "0.0.2"
-authors = [
-    { name = "Dalton Shanholtz", email="dshanh01@rams.shepherd.edu" },
-]
-description = "A game of Blackjack - Final Project"
-readme = "README.md"
-requires-python = ">=3.8"
-license = "ISC"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "Operating System :: OS Independent",
-]
-dependencies = [
-    "tkinter>8.6.12"
-]
+## Features
+GUI provided by TKinter
+Player versus CPU experience
+Ability to change wager amount
+Animation
 
-[project.urls]
-Homepage = "https://github.com/daltons92/Final-Blackjack"
-Issues = "https://github.com/daltons92/Final-Blackjack"
+## About
+Made by Dalton Shanholtz, go rams!
+
+## To Play
+To begin, run main.py. 
